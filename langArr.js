@@ -1,5 +1,4 @@
 const langArr = {
-
     "title": {
         "de": "Lebenslauf",
         "en": "Resume",
@@ -43,39 +42,15 @@ const langArr = {
     },
 
     "job-h": {
-        "de": "Über der Job",
-        "en": "About job",
-        "ru": "О работе",
+        "de": "<b>Über der Job</b>",
+        "en": "<b>About job</b>",
+        "ru": "<b>О работе</b>",
     },
 
     "job-1": {
-        "de": "Ich suche einen Job als Frontend- oder Backend- JavaScript Entwickler",
-        "en": "I'm looking for a Frontend or Backend JavaScript developer job",
-        "ru": "Я ищу работу Frontend или Backend JavaScript developer",
-    },
-
-    "job-2": {
-        "de": "Dieses Projekt ist meine Präsentationsarbeit",
-        "en": "This project is my presentation work",
-        "ru": "Данный проект является моей презентационной работой",
-    },
-
-    "job-3": {
-        "de": "Ich werde dieses Projekt ständig weiterzuentwickeln und zu verbessern, während sich mein Erpfarung verbessert",
-        "en": "I will continue to develop and improve this project as my experience improves",
-        "ru": "Данный проект я планирую постоянно разввивать и совершествовать по мере улучшения моих знаний",
-    },
-
-    "job-4": {
-        "de": "Gerade lerne ich JavaScript",
-        "en": "Right now I'm learning JavaScript",
-        "ru": "Прямо сейчас я изчуаю JavaScript ",
-    },
-
-    "job-5": {
-        "de": "Nach Abschluss des JavaScript-Kurses werde ich HTML und CSS detaillierten lernen.",
-        "en": "Upon completion of the JavaScript course, I will move on to a detailed study of HTML and CSS",
-        "ru": "По завершении курса JavaScript перейду к детальному изучению HTML и CSS",
+        "de": "Ich suche einen Job als Frontend- oder Backend- <b>JavaScript Entwickler</b>. Dieses Projekt ist meine <b>Präsentationsarbeit</b>. Ich werde dieses Projekt ständig weiterzuentwickeln und zu verbessern, während sich mein Erpfarung verbessert. Nach Abschluss des JavaScript-Kurses werde ich HTML und CSS detaillierten lernen.",
+        "en": "I'm looking for a Frontend or Backend <b>JavaScript developer</b> job. This project is my <b>presentation work</b>. I will continue to develop and improve this project as my experience improves. Upon completion of the JavaScript course, I will move on to a detailed study of HTML and CSS.",
+        "ru": "Я ищу работу Frontend или Backend <b>JavaScript developer.</b> Данный проект является моей <b>презентационной работой</b>. Данный проект я планирую постоянно развивать и совершествовать по мере улучшения моих знаний. По завершении курса JavaScript перейду к детальному изучению HTML и CSS.",
     },
 
     "studium-heater": {
@@ -91,8 +66,8 @@ const langArr = {
     },
 
     "studium1": {
-        "de": "College auf der Grundlage der Kharkiv State Technical University of Construction and Architecture",
-        "en": "College based on Kharkiv State Technical University of Construction and Architecture",
+        "de": "College auf der Grundlage der Kharkiv Bauwesen und Architektur Charkiw",
+        "en": "College based on Kharkiv State University of Construction and Architecture",
         "ru": "Лицей на базе ХГТУСА",
     },
 
@@ -159,7 +134,7 @@ const langArr = {
         "ru": "- Модератор сайта;",
     },
     "job8": {
-        "de": "- Arbeit mit verschiedenen  Metallbearbeitungswerkzeugen, Erfahrungen bei der Metallbearbeitung;",
+        "de": "- Arbeit mit verschiedenen  Metallbearbeitungswerkzeugen;",
         "en": "- work with sophisticated metalworking equipment;",
         "ru": "- работа с различным металлообрабатывающим оборудованием;",
     },
