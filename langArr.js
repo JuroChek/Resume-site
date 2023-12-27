@@ -1,4 +1,10 @@
 const langArr = {
+
+    "title": {
+        "de": "Lebenslauf",
+        "en": "Resume",
+        "ru": "Резюме",
+    },
     "head-text": {
         "de": "Lebenslauf",
         "en": "Resume",
