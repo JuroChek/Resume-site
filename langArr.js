@@ -18,7 +18,7 @@ const langArr = {
     },
 
     "name": {
-        "de": "<b>Juryi</b>",
+        "de": "<b>Yurii</b>",
         "en": "<b>Yurii</b>",
         "ru": "<b>Юрий</b>",
     },
@@ -42,13 +42,13 @@ const langArr = {
     },
 
     "job-h": {
-        "de": "<b>Über der Job</b>",
-        "en": "<b>About job</b>",
-        "ru": "<b>О работе</b>",
+        "de": "<b>Über mich</b>",
+        "en": "<b>About me</b>",
+        "ru": "<b>О себе</b>",
     },
 
     "job-1": {
-        "de": "Ich suche einen Job als Frontend- oder Backend- <b>JavaScript Entwickler</b>. Dieses Projekt ist meine <b>Präsentationsarbeit</b>. Ich werde dieses Projekt ständig weiterzuentwickeln und zu verbessern, während sich mein Erpfarung verbessert. Nach Abschluss des JavaScript-Kurses werde ich HTML und CSS detaillierten lernen.",
+        "de": "Ich suche einen Job als Frontend- oder Backend- <b>JavaScript Entwickler</b>. Dieses Projekt ist meine <b>Präsentationsarbeit</b>. Ich werde dieses Projekt ständig weiterentwickeln und verbessern. Nach Abschluss des JavaScript-Kurses werde ich HTML und CSS lernen.",
         "en": "I'm looking for a Frontend or Backend <b>JavaScript developer</b> job. This project is my <b>presentation work</b>. I will continue to develop and improve this project as my experience improves. Upon completion of the JavaScript course, I will move on to a detailed study of HTML and CSS.",
         "ru": "Я ищу работу Frontend или Backend <b>JavaScript developer.</b> Данный проект является моей <b>презентационной работой</b>. Данный проект я планирую постоянно развивать и совершествовать по мере улучшения моих знаний. По завершении курса JavaScript перейду к детальному изучению HTML и CSS.",
     },
@@ -66,7 +66,7 @@ const langArr = {
     },
 
     "studium1": {
-        "de": "College auf der Grundlage der Kharkiv Bauwesen und Architektur Charkiw",
+        "de": "College Bauwesen und Architektur / Nationale Universität für Bauwesen und Architektur Charkiw",
         "en": "College based on Kharkiv State University of Construction and Architecture",
         "ru": "Лицей на базе ХГТУСА",
     },
@@ -76,10 +76,15 @@ const langArr = {
         "en": "Kharkiv National University of Construction and Architecture",
         "ru": "Харьковский государственный национальный университет строительсва и архитектуры",
     },
+    "studium21": {
+        "de": "Abschluss, Diplom",
+        "en": "Diploma",
+        "ru": "Диплом специалиста",
+    },
 
     "studium3": {
-        "de": "Deutsch kurs in VHS",
-        "en": "German course in VHS",
+        "de": "Deutschkurs VHS",
+        "en": "German course VHS",
         "ru": "Курс немецкого языка на VHS",
     },
 
@@ -243,7 +248,7 @@ const langArr = {
     "expo1": {
         "de": "Gute Kenntnisse im Bereich IT:",
         "en": "Good knowledge of IT:",
-        "ru": "Имею следующие знания в IT:",
+        "ru": "Имею знания в IT:",
     },
     "expo2": {
         "de": "- Frontend-Entwickler, JavaScript, HTML, CSS;",
@@ -261,19 +266,19 @@ const langArr = {
         "ru": "- опыт работы с серверами, доменами;",
     },
     "expo5": {
-        "de": "CMS-spezifische Systeme",
-        "en": "CMS specific systems",
+        "de": "- CMS-spezifische Systeme",
+        "en": "- CMS specific systems",
         "ru": "- cистемы управления сайтом CMS;",
     },
     "expo6": {
-        "de": "SEO für Suchmaschinen wie Google.",
-        "en": "SEO for search engines like Google.",
+        "de": "- SEO für Suchmaschinen wie Google.",
+        "en": "- SEO for search engines like Google.",
         "ru": "- SEO для поисковой системы Google;",
     },
 
     "expo7": {
-        "de": "Computersysteme Windows, Linux Ubuntu.",
-        "en": "Computer systems Windows, Linux Ubuntu.",
+        "de": "- Computersysteme Windows, Linux Ubuntu.",
+        "en": "- Computer systems Windows, Linux Ubuntu.",
         "ru": "- Компьютерные системы Windows, Linux Ubuntu.",
     },
     "expo8": {
@@ -282,14 +287,14 @@ const langArr = {
         "ru": "Опыт в",
     },
     "expo9": {
-        "de": "Metallverarbeitung ",
+        "de": "Metallverarbeitung",
         "en": "steel processing",
         "ru": "металообработке",
     },
     "expo10": {
-        "de": "Kenntnisse der Metallverarbeitung Technologien",
-        "en": "Knowledge of steel processing technologies",
-        "ru": "Имею следующие знания в металообработке:",
+        "de": "Kenntnisse der Metallverarbeitung Technologien. Metallverarbeitungstechnik: Biegen, Schneiden, Zerspanen, Schweißen, etc. Arbeiten mit rostfreiem und normalem Stahl sowie mit Nichteisenmetallen. Nasslackierung und Pulverbeschichtung.",
+        "en": "Knowledge of steel processing technologies. Metal processing technologies: bending, cutting, machining, welding, etc. Work with stainless and ordinary steels, as well as non-ferrous metals. wet painting and powder painting.",
+        "ru": "<b>Знания в металообработке.</b> Технологии обработки металлов: гибка, резка, мехобработка, сварка и т.д.. Работа с нержавеющими и обычными сталями, а также цветными металлами. Мокрая покраска и порошковая покраска.",
     },
     "expo11": {
         "de": "- Metallverarbeitungstechnik (Biegen, Schneiden, Bearbeiten, Schweißen usw.) ",
@@ -317,8 +322,8 @@ const langArr = {
         "ru": "Хобби",
     },
     "hobby1": {
-        "de": "Bücher lesen, wissenschaftlichen und historischen Artikeln",
-        "en": "Read books, scientific and historical articles",
+        "de": "Bücher lesen, wissenschaftliche und historische Artikel",
+        "en": "Reading books, scientific and historical articles",
         "ru": "Чтение книг, научных и исторических статей",
     },
     "hobby2": {
@@ -327,13 +332,13 @@ const langArr = {
         "ru": "Люблю фотографировать.",
     },
     "hobby3": {
-        "de": "Ich fotografiere, Architektur-, Natur und Sahen.",
-        "en": "I take to pictures architecture, nature, objects.",
+        "de": "Ich fotografiere, Architektur, Natur und Objecte.",
+        "en": "I take pictures of architecture, nature, objects.",
         "ru": "Фотографирую архитектуру, природу, предметы.",
     },
     "hobby4": {
-        "de": "Elektronik, Computer, Audiogeräte, Internetzwerke",
-        "en": "Electronics, computers, audio equipment, internet networks",
+        "de": "Elektronik, Computer, Audiogeräte, Netzwerke",
+        "en": "Electronics, computers, audio equipment, Networks",
         "ru": "Увлекаюсь электроникой, компьютерами, аудиотехникой.",
     }, 
     "hobby5": {
@@ -342,14 +347,14 @@ const langArr = {
         "ru": "Диагностика и ремонт автомобилей.",
     },
     "hobby6": {
-        "de": "Restaurierung verschiedener Sachen",
-        "en": "Restoration of various things",
-        "ru": "Реставрация раличных вещей",
+        "de": "Restaurierung",
+        "en": "Restoration",
+        "ru": "Реставрация",
     },
     "info-footer": {
         "de": "Alle Informationen auf dieser Website dienen dazu, jegliche Entwicklung zu verhindern",
         "en": "All information on this site belongs to its developer",
-        "ru": "Вся информация на этом сайте пренадлежит ее разработчику ",
+        "ru": "Вся информация на этом сайте пренадлежит ее разработчику",
     },
     "hardware-footer": {
         "de": "Für die Entwicklung der Website wurde ein HP-Laptop mit Intel-Prozessor verwendet.",

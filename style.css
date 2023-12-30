@@ -11,12 +11,12 @@
 :focus,:active{outline: none;}
 a:focus,a:active{outline: none;}
 
-nav,footer,header,aside{display: block;}
+footer,header{display: block;}
 
 html,body{
 	height: 100%;
 	width: 100%;
-    min-width: 420px;
+    min-width: 720px;
 	font-size: 100%;
 	line-height: 1;
 	font-size: 14px;
@@ -24,36 +24,17 @@ html,body{
 	-moz-text-size-adjust: 100%;
 	-webkit-text-size-adjust: 100%;
 }
-input,button,textarea{font-family:inherit;}
-
-input::-ms-clear{display: none;}
-button{cursor: pointer;}
-button::-moz-focus-inner {padding:0;border:0;}
 a, a:visited{text-decoration: none;}
 a:hover{text-decoration: none;}
 ul li{list-style: none;}
 img{vertical-align: top;}
 
-h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+h2,h3{font-size:inherit;font-weight: 400;}
 /*--------------------*/
 
-.bigred{
-	font-size: 20px;
-	color: red;
-}
-
-:root {
-    --white: #fff;
-    --black: #000;
-    --padding: 0px;
-}
 body{
-    background-color: beige;
+    background-color: white;
     padding: 20%, 20%, 20%, 20%;
-}
-nav {
-    max-width: 1032px;
-
 }
 .head{
     width: 80%;
@@ -68,6 +49,7 @@ nav {
     padding-left: 20%;
     padding-right: 30%;
 }
+
 .lang{
     margin-top:30px;
     height:40px;
@@ -83,26 +65,16 @@ h2 {
     color: #000;
     font-size: 400%;
 }
-h4 {
-    font-size: 50%;
-    color: black;
-}
 h3{
     font-size: 30px;
     margin-top: 10px;
     margin-bottom: 10px;
 }
-#header {
-    color: #000;
-    font: size 100%;
-    height: 40%;
-    width: 30%;
-}
 .kontakt {
     width: 80%;
     margin-left: 10%;
     margin-right: 10%;
-    margin-bottom: 5px;
+    margin-bottom: 0px;
     background-color: deepskyblue;
     display: flex;
     min-height: 380px;
@@ -121,7 +93,7 @@ h3{
     height: 50px;
     width: 400px;
     margin-top: 30px;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
     font-size: 30px;
 }
 #kontakts-name {
@@ -149,93 +121,12 @@ h3{
     margin-top: 10px;
     margin-bottom: 10px;
 }
-#name{
-    margin: 20px;
-    font-size: 50px;
-}
 .studium{
     width: 80%;
     margin-left: 10%;
     margin-right: 10%;
-}
-#studium{
     display: flex;
     flex-direction: row;
-}
-.studium-heater{
-    margin-top: 5px;
-    margin-bottom: 5px;
-    display: flex;
-    background-color: rgb(160, 160, 160);
-    height: 50px;
-    flex-direction: column;
-    align-items: center;
-}
-.studium-data{
-    display: flex;
-    background-color: deepskyblue;
-    flex-direction: column;
-    width: 20%;
-    justify-content: center;
-    align-content: flex-start;
-    align-items: flex-end;
-}
-.studium-data1 {
-    display: flex;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    font-size: 25px;
-    width: max-content;
-    padding-right: 40%;
-}
-.job-data{
-    display: flex;
-    background-color: deepskyblue;
-    flex-direction: column;
-    width: 20%;
-    align-content: flex-start;
-    align-items: flex-end;
-    padding-right: 2%;
-}
-.job{
-    font-size: 25px;
-    text-align: justify;
-    line-height: 1.5;
-    display: flex;
-    margin-left: 0.5%;
-    flex-direction: column;
-    width: 80%;
-}
-
-.studium-place1 {
-    display: flex;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    font-size: 25px;
-    width: max-content;
-    margin-left: 2%;
-}
-.language{
-    display: flex;
-    justify-content: flex-start;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    height: 50px;
-    background-color: rgb(160, 160, 160);
-    align-items: center;
-}
-#language{
-    margin-right: 30px;
-    padding-left: 6%;
-    font-size: 20px;
-}
-#laguage-typ{
-    font-size: 20px;
-    margin-left: 105px;
-}
-.list{
-    padding-top: 3px;
-    padding-bottom: 3px;
 }
 .list-sub{
     padding-left: 15px;
@@ -252,4 +143,92 @@ footer{
     flex-direction: column;
     align-items: flex-start;
 }
+table{
+    border-spacing: 0, 0px;
+    width: 100%;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    font-size: 25px;
+    border-color: antiquewhite;
+    line-height: 1.5;
+   }
+caption{
+    background-color: rgb(160, 160, 160);
+    height: 50px;
+    align-content: center;
+    }
+th{
+    border-color: 1px, deepskyblue;
+    background-color: deepskyblue;
+    width: 20%;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-right: 20px;
+    text-align: right;
+}
+td{
+    width: 80%;
+    text-align: left;
+    padding-left: 10px;
+    text-align: justify;
+}
+@media (min-width: 300px) {
+    .avatar{
+        width: 237px;
+        height: 300px;
+        margin: 20px;
+    }
+    .head{
+        width: 100%;
+        margin-left: 0%;
+        margin-right: 0%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .studium{
+        width: 100%;
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+    .kontakt {
+        width: 100%;
+        margin-left: 0%;
+        margin-right: 0%;
+        flex-direction: column;
+        align-items: center;
+    }
+  
+}
 
+@media (min-width: 820px) {
+    .head{
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+        display: flex;
+        flex-direction: row;
+    }
+    .studium{
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+        display: flex;
+        flex-direction: row;
+    }
+    .kontakt {
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+        display: flex;
+        flex-direction: row;
+    }
+    .avatar{
+        width: 237px;
+        height: 300px;
+        margin: 20px;
+        
+        
+    }
+
+}
