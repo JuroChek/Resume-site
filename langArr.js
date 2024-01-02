@@ -48,9 +48,9 @@ const langArr = {
     },
 
     "job-1": {
-        "de": "Ich suche einen Job als Frontend- oder Backend- <b>JavaScript Entwickler</b>. Dieses Projekt ist meine <b>Präsentationsarbeit</b>. Ich werde dieses Projekt ständig weiterentwickeln und verbessern. Nach Abschluss des JavaScript-Kurses werde ich HTML und CSS lernen.",
-        "en": "I'm looking for a Frontend or Backend <b>JavaScript developer</b> job. This project is my <b>presentation work</b>. I will continue to develop and improve this project as my experience improves. Upon completion of the JavaScript course, I will move on to a detailed study of HTML and CSS.",
-        "ru": "Я ищу работу Frontend или Backend <b>JavaScript developer.</b> Данный проект является моей <b>презентационной работой</b>. Данный проект я планирую постоянно развивать и совершествовать по мере улучшения моих знаний. По завершении курса JavaScript перейду к детальному изучению HTML и CSS.",
+        "de": "Ich suche einen Job als Frontend- oder Backend- <b>JavaScript Entwickler</b>. Dieses Projekt ist meine <b>Präsentationsarbeit</b>. Ich werde dieses Projekt ständig weiterentwickeln und verbessern. Nach Abschluss des JavaScript-Kurses werde ich HTML und CSS lernen. Erfahrung mit der Arbeit in einem Team. Ich bin zielstrebig, nicht konfliktscheu und habe Erfahrung als Führungskraft.",
+        "en": "I'm looking for a Frontend or Backend <b>JavaScript developer</b> job. This project is my <b>presentation work</b>. I will continue to develop and improve this project as my experience improves. Upon completion of the JavaScript course, I will move on to a detailed study of HTML and CSS. Experience of working in a team. Goal-oriented, non-conflictive, has experience as a manager.",
+        "ru": "Я ищу работу Frontend или Backend <b>JavaScript developer.</b> Данный проект является моей <b>презентационной работой</b>. Данный проект я планирую постоянно развивать и совершествовать по мере улучшения моих знаний. По завершении курса JavaScript перейду к детальному изучению HTML и CSS. Умею работать в коллективе. Целеустремленный, не конфликтный, есть опыт руководителя.",
     },
 
     "studium-heater": {
@@ -101,9 +101,9 @@ const langArr = {
     },
    
     "job1": {
-        "de": "Arbeit im Unternehmen zur Herstellung von Metallkonstruktionen für Aufzüge,",
-        "en": "Work in the company producing metal structures for elevators",
-        "ru": "Работа в компании по производству запастных частей для Лифтов",
+        "de": "Servicemetall. Herstellung von Metallkonstruktionen für Aufzüge",
+        "en": "Servicemetall. The company producing metal structures for elevators",
+        "ru": "Сервисметал. Компании по производству запастных частей для Лифтов",
     },
 
     "job2": {
@@ -241,7 +241,7 @@ const langArr = {
         "ru": "Навыки",
     },
     "expo-heat": {
-        "de": "Erfahrung in der IT",
+        "de": "In der IT",
         "en": "IT Experience",
         "ru": "Опыт в IT",
     },
@@ -287,9 +287,9 @@ const langArr = {
         "ru": "Опыт в",
     },
     "expo9": {
-        "de": "Metallverarbeitung",
-        "en": "steel processing",
-        "ru": "металообработке",
+        "de": "Metall- verarbeitung",
+        "en": "Steel processing",
+        "ru": "Метало- обработка",
     },
     "expo10": {
         "de": "Kenntnisse der Metallverarbeitung Technologien. Metallverarbeitungstechnik: Biegen, Schneiden, Zerspanen, Schweißen, etc. Arbeiten mit rostfreiem und normalem Stahl sowie mit Nichteisenmetallen. Nasslackierung und Pulverbeschichtung.",
