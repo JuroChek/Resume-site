@@ -1,0 +1,159 @@
+:root {
+    --white: #fff;
+    --black: #000;
+  
+    /* Primary colors*/
+    --primary-1: #2b8379;
+    --primary-2: #19a596;
+    --primary-3: #7fd1c7;
+    --primary-4: #7fd1c7;
+    --primary-5: #d0f3ef;
+  
+    /* Neutral colors */
+    --neutral-1: #2c2c2c;
+    --neutral-2: #434343;
+    --neutral-3: #94868b;
+    --neutral-4: #d9cfd3;
+    --neutral-5: #f2ecee;
+  
+    /* Accent-blue colors */
+    --accent-1: #970e3d;
+    --accent-2: #c43464;
+    --accent-3: #de7699;
+    --accent-4: #e6c3ce;
+    --accent-5: #fff2f7;
+    --accent-6: #ff0000; 
+  }
+  body {
+    background-color: var(--neutral-5);
+    margin: 0;
+    justify-content: center;
+  }
+  section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  h1 {
+    font-size: 36px;
+    font-weight: 600;
+  }
+  
+  h2 {
+    font-size: 28px;
+    font-weight: 500;
+  }
+  
+  h3 {
+    font-size: 24px;
+    font-weight: normal;
+  }
+    /* FORMS */
+  .form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100hv;
+  }
+    
+  .input {
+    font-size: 16px;
+    margin-top: 1em;
+    margin-bottom: 1.5em;
+    padding: 0.75em 0.5em;
+    border: none;
+    border-left: 7px solid var(--neutral-4);
+    transition: border-left-color 160ms;
+    background-color: white;
+    width: 100%;
+  }
+  
+  ::placeholder {
+    color: var(--neutral-3);
+  }
+  
+  input:not(.btn):focus {
+    outline: none;
+    border-left: 7px solid var(--primary-1);
+  }
+  
+  /*idividuel*/
+  .label{
+    justify-content: center;
+    align-items: center;
+    width: 320px;
+    font-size: 20px;
+  }
+  .show {
+    margin-left: 22px;
+    margin-top: 20px;
+    width: 340px;
+    height: 45px;
+    font-size: 20px;
+  }
+  .info {
+    border: 2px solid var( --black);
+    margin-top: 100px;
+    margin-bottom: 30px;
+    padding: 10px;
+    min-width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .info-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    padding: 0;
+  }
+  #lab-pass{
+    text-align: center;
+  }
+  .label-password{
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    width: 320px;
+    font-size: 20px;
+    .show_btn.active {
+      &::after{
+        opacity: 0;
+      }
+    }
+    .show_btn {
+      position: absolute;
+      right: -22px;
+      top: 40px;
+      border-bottom: 2px, var(--black);
+
+      &::after {
+        position: absolute;
+        content: '';
+        top: 18px;
+        right: 0px;
+        width: 43px;
+        height: 3px;
+        background: var(--black);
+        transform: rotate(45deg);
+        transition: 0.3s all ease;
+        opacity: 1;
+      }
+    }
+  }
+  #info{
+    position: relative;
+    margin-left: 10px;
+    margin-top: -15px;
+  }
+  .image{
+    background: var(--neutral-5);
+  }
+
+ 

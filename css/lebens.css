@@ -1,0 +1,258 @@
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,*:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+footer,header{display: block;}
+
+html,body{
+	height: 100%;
+	width: 100%;
+    min-width: 720px;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+h2,h3{font-size:inherit;font-weight: 400;}
+/*--------------------*/
+
+body{
+    background-color: white;
+    padding: 20%, 20%, 20%, 20%;
+}
+.head{
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+    justify-content: space-between;
+    background-color: dimgray;
+    min-height: 100px;
+    align-items: stretch;
+}
+.head-text{
+    padding-left: 10%;
+    padding-right: 60%;
+}
+
+.lang{
+    margin-right:30px;
+    height:40px;
+    width: 120px;
+    background-color: dimgray;
+    font-size: 20px;
+    border: 2px solid rgb(50, 45, 45);
+    border-radius: 10%;
+}
+
+h2 {
+    padding-top: 15px;
+    color: #000;
+    font-size: 400%;
+}
+h3{
+    font-size: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.kontakt {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 0px;
+    background-color: deepskyblue;
+    display: flex;
+    min-height: 380px;
+    justify-content: space-around;
+    
+}
+.avatar{
+    width: 237px;
+    height: 300px;
+    margin: 20px;
+    margin-left: 5%;
+}
+.kontakts-heater{
+    display: block;
+    height: 50px;
+    width: 400px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+.kontakts-name {
+    margin-left: 50px;
+    width: 50%;
+
+}
+.kontakts-adres {
+  font-size: 20px;
+  margin-right: 5%; 
+}
+.avatar-phone{
+    width: 25px;
+    display:inline;
+    height: 25px;
+    font-display: deepskyblue;
+    border-radius: 20%;
+    margin-right: 10px;
+}
+.kontakt-list{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.studium{
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+    flex-direction: row;
+}
+.list-sub{
+    padding-left: 15px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+footer{
+    padding-left: 20%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    font-size: 15px;
+    background-color: dimgray;
+    flex-direction: column;
+    align-items: flex-start;
+}
+table{
+    border-spacing: 0, 0px;
+    width: 100%;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    font-size: 25px;
+    border-color: antiquewhite;
+    line-height: 1.5;
+   }
+caption{
+    background-color: rgb(160, 160, 160);
+    height: 50px;
+    align-content: center;
+    }
+th{
+    border-color: 1px, deepskyblue;
+    background-color: deepskyblue;
+    width: 20%;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-right: 20px;
+    text-align: right;
+}
+td{
+    width: 80%;
+    text-align: left;
+    padding-left: 10px;
+    text-align: justify;
+}
+@media (min-width: 300px) {
+    .head-text{
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+    .avatar{
+        width: 237px;
+        height: 300px;
+    }
+    .head{
+        width: 100%;
+        margin-left: 0%;
+        margin-right: 0%;
+        display: flex;
+        align-items: center;
+    }
+    .studium{
+        width: 100%;
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+    .kontakt {
+        width: 100%;
+        margin-left: 0%;
+        margin-right: 0%;
+        flex-direction: column;
+        align-items: center;
+    }
+    #kontakts-name {
+        margin: 0px;
+        top: 10px;
+        font-size: 40px;
+        width: 90%;
+    }
+    .kontakts-heater{
+        display: block;
+        height: 50px;
+        width: 400px;
+        font-size: 30px;
+    }
+  
+}
+@media (min-width: 1000px) {
+    .head-text{
+        padding-left: 10%;
+        padding-right: 60%;
+    }
+    .head{
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+        display: flex;
+        flex-direction: row;
+    }
+    .studium{
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+        display: flex;
+        flex-direction: row;
+    }
+    .kontakt {
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+        display: flex;
+        flex-direction: row;
+    }
+    .avatar{
+        width: 237px;
+        height: 300px;
+        margin: 20px;
+    }
+    #kontakts-name {
+        margin: 50px;
+        top: 10px;
+        font-size: 40px;
+        width: 30%;
+    }
+    .kontakts-heater{
+        display: block;
+        height: 50px;
+        width: 400px;
+        margin-top: 30px;
+        margin-bottom: 10px;
+        font-size: 30px;
+    }
+}
