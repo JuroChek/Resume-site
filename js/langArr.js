@@ -99,9 +99,9 @@ const langArr = {
     },
 
     "studium5": {
-        "de": "Russisch, Ukrainisch, Englisch (A1), Deutsch (A2)",
-        "en": "Russian, Ukrainian, English(A1), German(A2)",
-        "ru": "Русский, Украинский, Английский(A1), Немецкий(A2)",
+        "de": "Russisch, Ukrainisch, Englisch (A2), Deutsch (B1)",
+        "en": "Russian, Ukrainian, English(A2), German(B1)",
+        "ru": "Русский, Украинский, Английский(A2), Немецкий(B1)",
     },
     
     "expiriens": {
