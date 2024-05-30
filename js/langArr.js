@@ -48,9 +48,9 @@ const langArr = {
     },
 
     "job-1": {
-        "de": "Ich suche einen Job als Frontend- oder Backend- <b>JavaScript Entwickler</b>. Dieses Projekt ist meine <b>Präsentationsarbeit</b>. Ich werde dieses Projekt ständig weiterentwickeln und verbessern. Nach Abschluss des JavaScript-Kurses werde ich HTML und CSS lernen. Erfahrung mit der Arbeit in einem Team. Ich bin zielstrebig, nicht konfliktscheu und habe Erfahrung als Führungskraft.",
-        "en": "I'm looking for a Frontend or Backend <b>JavaScript developer</b> job. This project is my <b>presentation work</b>. I will continue to develop and improve this project as my experience improves. Upon completion of the JavaScript course, I will move on to a detailed study of HTML and CSS. Experience of working in a team. Goal-oriented, non-conflictive, has experience as a manager.",
-        "ru": "Я ищу работу Frontend или Backend <b>JavaScript developer.</b> Данный проект является моей <b>презентационной работой</b>. Данный проект я планирую постоянно развивать и совершествовать по мере улучшения моих знаний. По завершении курса JavaScript перейду к детальному изучению HTML и CSS. Умею работать в коллективе. Целеустремленный, не конфликтный, есть опыт руководителя.",
+        "de": `Ich suche eine Stelle, wo ich meine Kenntnisse und Qualifikationen optimal einsetzen kann. Seit dem Ende meines Studiums habe ich in meinem Beruf in verschiedenen Branchen und in unterschiedlichen Bereichen gearbeitet. Daher habe ich ein großes Spektrum an Kenntnissen gesammelt.  Ich bin ein erfahrener PC-Anwender und habe Erfahrung in der Arbeit als Führungskraft. Ich bin freundlich und konfliktfreudig, ich mag Ehrlichkeit und Fairness.`,
+        "en": `I am looking for a job where I can maximise the use of my knowledge and skills. Since the end of my studies, I have worked in my profession in different industries and in different areas. Thanks to this I have acquired a wide range of knowledge.  I am an experienced PC user, I have experience of working as a manager. I am friendly and non-conflictive, I like fairness and honesty.`,
+        "ru": `Я ищу работу на которой смогу максимально использовать использовать свои знания и навыки. С момента окончания моего штудиума, я работал по своей професси в разных производствах, с разными направлениями. Благодаря этому приобрел широкий спекрт знаний.  Опытный пользователь ПК, есть опыт работы руководителем. Я дружелюбный и неконфликтный, люблю справедливось и честность.`,
     },
     "job-h1": {
         "de": "<b>Für den Arbeitgeber</b>",
